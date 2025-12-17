@@ -11,7 +11,7 @@ spring.boot.admin.client:
 --- # 数据源配置
 spring:
   datasource:
-    type: com.seemseaxxer.hikari.HikariDataSource
+    type: com.zaxxer.hikari.HikariDataSource
     # 动态数据源文档 https://www.kancloud.cn/tracy5546/dynamic-datasource/content
     dynamic:
       # 性能分析插件(有性能损耗 不建议生产环境使用)
@@ -25,14 +25,14 @@ spring:
         master:
           type: ${spring.datasource.type}
           driverClassName: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://localhost:3306/seemse_ai?useUnicode=true&characterEncoding=utf8&seemseeroDateTimeBehavior=convertToNull&useSSL=true&serverTimeseemseone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
+          url: jdbc:mysql://localhost:3306/seemse_ai?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
           username: root
           password: root
 
 
       hikari:
         # 最大连接池数量
-        maxPoolSiseemsee: 20
+        maxPoolSize: 20
         # 最小空闲线程数量
         minIdle: 10
         # 配置获取连接等待超时的时间
@@ -76,15 +76,15 @@ redisson:
     # 客户端名称
     clientName: ${seemse.name}
     # 最小空闲连接数
-    connectionMinimumIdleSiseemsee: 8
+    connectionMinimumIdleSize: 8
     # 连接池大小
-    connectionPoolSiseemsee: 32
+    connectionPoolSize: 32
     # 连接空闲超时，单位：毫秒
     idleConnectionTimeout: 10000
     # 命令等待超时，单位：毫秒
     timeout: 3000
     # 发布和订阅连接池大小
-    subscriptionConnectionPoolSiseemsee: 50
+    subscriptionConnectionPoolSize: 50
 
 --- # sms 短信
 sms:

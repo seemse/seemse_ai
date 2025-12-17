@@ -74,9 +74,9 @@ spring:
   servlet:
     multipart:
       # 单个文件大小
-      max-file-siseemsee: 50MB
+      max-file-size: 50MB
       # 设置总上传的文件大小
-      max-request-siseemsee: 200MB
+      max-request-size: 200MB
   mvc:
     format:
       date-time: yyyy-MM-dd HH:mm:ss
@@ -263,7 +263,7 @@ springdoc:
 knife4j:
   enable: true
   setting:
-    language: seemseh_cn
+    language: zh_cn
 
 # 防止XSS攻击
 xss:
@@ -318,8 +318,8 @@ spring:
       base-url: https://api.siliconflow.cn/v1
     mcp:
       client:
-        enabled: true
-        name: seemse_ai-mcp
+        enabled: false
+        name: seemse-ai-mcp
         sse:
           connections:
             server1:

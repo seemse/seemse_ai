@@ -12,22 +12,22 @@
 
 ## ✨ Key Features
 
-### 🔐 Tiered-Permission Knowledge Base System
+### 🔐 Tiered-Permission Knowledge Base
 An enterprise-grade knowledge hub designed for internal teams, integrating **knowledge storage**, **management**, **retrieval**, and **fine-grained access control** in one system. Ensures data security from both **user dimension** and **content dimension**.
 
-🏗️ **Core Support Layer**: Foundational system capabilities  
-☁️ **Cloud LLM Module**: Provides semantic understanding and content generation for knowledge-based Q&A. Supports integration with cloud LLMs such as **Qwen**, **Deepseek**, and **Doubao**, with flexible **model switching** or **combination** based on business needs.
+- **🏗️ Core Support Layer**: Foundational system capabilities
+- **☁️ Cloud LLM Module**: Provides semantic understanding and content generation for knowledge-based Q&A. Supports integration with cloud LLMs such as **Qwen**, **Deepseek**, and **Doubao**, with flexible **model switching** or **combination** based on business needs
 
-⚙️ **Core Function Layer**: Core business logic and permission control  
-📚 **Knowledge Base Management Module**: Handles document ingestion, processing, and storage to serve as the **data foundation** for Q&A.  
-🔌 **External Data Integration Module**: Connects to external business systems (e.g., **pricing systems**, **product catalogs**) to enrich knowledge sources; synchronizes real-time business data into the knowledge base via **MCP interfaces**.  
-🛡️ **Admin Management Module** (Central Control Point):  
- • **Permission Management**: Enforces security from **user** and **content** perspectives. Supports granular access policies by **department**, **role**, **user tag**, or **content filter**. Permissions are set by the **uploader** or **authorized content owner**. Allows explicit configuration to **allow or deny specific users/departments from querying certain types of information**. **Critical attention must be paid to prevent information leakage via LLMs.**  
- • 📤 **Document Upload**: Centralized upload interface in admin panel; also supports authorized users uploading documents via the frontend. All content automatically **inherits defined permission policies**.
+- **⚙️ Core Function Layer**: Core business logic and permission control
+- **📚 Knowledge Base Management Module**: Handles document ingestion, processing, and storage to serve as the **data foundation** for Q&A
+- **🔌 External Data Integration Module**: Connects to external business systems to enrich knowledge sources; synchronizes real-time business data into the knowledge base via **MCP interfaces**
+- **🛡️ Admin Management Module (Central Control Point)**:
+    - **Permission Management**: Enforces security from **user** and **content** perspectives. Supports granular access policies by **department**, **role**, **user tag**, or **content filter**. Permissions are set by the **uploader** or **authorized content owner**. Allows explicit configuration to **allow or deny specific users/departments from querying certain types of information**. **Critical attention must be paid to prevent information leakage via LLMs.**
+    - **📤 Document Upload**: Centralized upload interface in admin panel; also supports authorized users uploading documents via the frontend. All content automatically **inherits defined permission policies**
 
-💬 **User Interaction Layer**: Direct user-facing interfaces  
-🖥️ **User Portal**: Standard interface for end users. Offers **text-based Q&A** and supports **document upload** (subject to permission checks).  
-🎤 **Voice Integration**: Provides **Text-to-Speech (TTS)** and **Speech-to-Text (ASR)** capabilities, extending knowledge base Q&A to **voice interaction scenarios**, suitable for meetings, customer service, mobile apps, etc.
+- **💬 User Interaction Layer**: Direct user-facing interfaces
+- **🖥️ User Portal**: Standard interface for end users. Offers **text-based Q&A** and supports **document upload** (subject to permission checks)
+- **🎤 Voice Integration**: Provides **Text-to-Speech (TTS)** and **Speech-to-Text (ASR)** capabilities, extending knowledge base Q&A to **voice interaction scenarios**, suitable for meetings, customer service, mobile apps, etc.
 
 ### 🤖 Advanced AI Engine
 - **Multi-Model Support**: OpenAI GPT-4, Aure, ChatGLM, Qwen, ZhipuAI

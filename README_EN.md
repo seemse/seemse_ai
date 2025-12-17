@@ -1,60 +1,90 @@
 
-# Seemse AI
+Seemse AI
 
 <div align="center">
+Enterprise-Grade AI Assistant Platform
 
+Production-ready AI platform with deep integration of FastGPT, Coze, DIFY, and advanced RAG technology
 
-
-### Enterprise-Grade AI Assistant Platform
-
-*Production-ready AI platform with deep integration of FastGPT, Coze, DIFY and advanced RAG technology*
-
-**[📖 中文文档](README.md)** | **[📚 Documentation]()** | **[🚀 Live Demo]()** | **[🐛 Report Bug]()** | **[💡 Request Feature]()**
+[📖 Chinese README](README.md) [📚 Documentation]() [🚀 Live Demo]() [🐛 Report Bug]() [💡 Request Feature]()
 
 </div>
 
+✨ Key Features
+🤖 Advanced AI Engine
+Multi-Model Support: OpenAI GPT-4, Aure, ChatGLM, Qwen, ZhipuAI
+AI Platform Integration: Deep integration with FastGPT, Coze, DIFY, and other leading AI platforms
+Spring AI MCP Integration: Extensible tool ecosystem powered by the Model Context Protocol (MCP)
+Streaming Chat: Real-time conversation via SSE/WebSocket for smooth user experience
+AI Copilot: Intelligent code analysis and automated project scaffolding
+🌟 AI Platform Ecosystem
+FastGPT Deep Integration: Native support for FastGPT APIs—knowledge retrieval, workflow orchestration, and context management
+Coze Official SDK: Full integration with ByteDance’s Coze platform, enabling Bot dialogues and streaming responses
+DIFY Full Compatibility: Leverages the DIFY Java Client for application orchestration, workflows, and knowledge base operations
+Unified Chat Interface: Standardized API layer supporting seamless switching between AI platforms and load balancing
+🧠 Enterprise RAG Solution
+Private Knowledge Base: Built on Langchain4j with BGE-large-h-v1.5 Chinese embedding model
+Vector Database Support: Compatible with Milvus, Weaviate, Qdrant, and more
+Privacy-First Architecture: Fully on-premise deployment option to safeguard sensitive enterprise data
+Flexible Inference Backends: Supports Ollama, vLLM, and other local LLM serving frameworks
+🎨 Creative AI Tools
+AI Art Generation: Integrated with DALL·E-3, MidJourney, and Stable Diffusion
+Smart PPT Creation: Automatically transforms text into polished presentation slides
+Multi-Modal Understanding: Processes text, images, and documents intelligently
 
-## ✨ Key Features
+🔐 Tiered-Permission Knowledge Base System
 
-### 🤖 Advanced AI Engine
-- **Multi-Model Support**: OpenAI GPT-4, Aure, ChatGLM, Qwen, hipuAI
-- **AI Platform Integration**: Deep integration with **FastGPT**, **Coze**, **DIFY** and other leading AI platforms
-- **Spring AI MCP Integration**: Extensible tool ecosystem with Model Context Protocol
-- **Streaming Chat**: Real-time SSE/WebSocket communication
-- **AI Copilot**: Intelligent code analysis and project scaffolding
+Seemse AI implements a three-layer architecture to deliver secure, scalable, and fine-grained knowledge management tailored for enterprise environments.
+🏗️ 1. Core Infrastructure Layer — Foundational Capabilities
+Cloud LLM Module
+Provides semantic understanding and generative capabilities for knowledge-based Q&A
+Supports major cloud models: Qwen, Deepseek, Doubao (Bean), and more
+Enables dynamic model switching or hybrid usage based on business needs
+All model interactions are standardized through the Model Context Protocol (MCP) for consistency and extensibility
 
-### 🌟 AI Platform Ecosystem
-- **FastGPT Deep Integration**: Native FastGPT API support with knowledge base retrieval, workflow orchestration and context management
-- **Coe Official SDK**: Integration with ByteDance Coe platform official SDK, supporting Bot conversations and streaming responses
-- **DIFY Full Compatibility**: Using DIFY Java Client for app orchestration, workflows and knowledge base management
-- **Unified Chat Interface**: Standardied chat service interface supporting seamless platform switching and load balancing
+⚙️ 2. Core Functionality Layer — Business Logic & Permission Control
+Knowledge Base Management
+Handles ingestion, chunking, embedding, and storage of knowledge documents
+Serves as the structured data backbone for accurate, context-aware AI responses
+Supports multiple file formats: PDF, Word, Excel, TXT, and more
+External Data Integration
+Connects to enterprise systems (e.g., pricing engines, product catalogs, CRM, ERP)
+Synchronizes external business data into the knowledge base via MCP interfaces
+Supports scheduled or event-triggered updates to ensure knowledge freshness
+Admin Console (Central Control Hub)
+🔒 Granular Permission Management (Critical for Security)
+Enforces dual-dimension access control: who can see what and what content is visible to whom
+Supports permission policies by:
+Department, Role, User Tag, and Content Filter
+Specific users, documents, or even document segments
+Allows content owners or authorized managers to:
+Restrict certain users/departments from querying sensitive topics
+Explicitly allow or deny access to specific knowledge categories
+Prevents LLM data leakage: All AI responses are filtered in real time against active permission rules
+📤 Document Upload
+Centralized upload interface in the admin panel for batch ingestion and metadata tagging
+Optionally allows authorized end users to upload documents directly (with inherited permissions)
+All uploaded content automatically enforces the uploader’s access policy
 
-### 🧠 Enterprise RAG Solution
-- **Local Knowledge Base**: Langchain4j + BGE-large-h-v1.5 embeddings
-- **Vector Database Support**: Milvus, Weaviate, Qdrant
-- **Privacy-First**: On-premise deployment with local LLM support
-- **Ollama & vLLM Compatible**: Flexible model deployment options
+💬 3. User Interaction Layer — End-User Experience
+End-User Portal
+Intuitive interface for non-technical users
+Natural language query input for knowledge retrieval
+Optional self-service document upload (subject to permission validation)
+All responses strictly comply with backend-defined access controls
+Voice Integration
+Built-in Speech-to-Text (ASR) and Text-to-Speech (TTS) capabilities
+Enables voice-based Q&A for use cases like meetings, customer service, and mobile apps
+Voice interactions are governed by the same permission framework as text queries
 
-### 🎨 Creative AI Tools
-- **AI Art Generation**: DALL·E-3, MidJourney, Stable Diffusion integration
-- **PPT Creation**: Automated slide generation from text input
-- **Multi-Modal Processing**: Text, image, and document understanding
-
-## 🛠️ Tech Stack
-
-### Core Framework
-- **Backend**: Spring Boot 3.4, Spring AI, Langchain4j
-- **Database**: MySQL 8.0, Redis, Vector Databases (Milvus/Weaviate/Qdrant)
-- **Frontend**: Vue 3, Vben Admin, Naive UI
-- **Authentication**: Sa-Token, JWT
-
-### System Components
-- **File Processing**: PDF, Word, Excel parsing, intelligent image analysis
-- **Real-time Communication**: WebSocket real-time communication, SSE streaming
-- **System Monitoring**: Comprehensive logging, performance monitoring, health checks
-
-
-> 💡 **Tip**：This project is an enhanced version of the ruoyi-ai project, with improvements in the integration and invocation of large models and MCP (the original ruoyi-ai had limitations). It supports MCP calls for any database and any API.
-
-
-
+🛠️ Tech Stack
+Core Framework
+Backend: Spring Boot 3.4, Spring AI, Langchain4j
+Database: MySQL 8.0, Redis, Vector Databases (Milvus / Weaviate / Qdrant)
+Frontend: Vue 3, Vben Admin, Naive UI
+Authentication: Sa-Token + JWT dual-layer security
+System Components
+File Processing: PDF, Word, Excel parsing; intelligent image analysis
+Real-Time Communication: WebSocket for bidirectional messaging, SSE for streaming responses
+Observability: Comprehensive logging, performance monitoring, and health checks
+💡 Tip: This project is an enhanced evolution of the ruoyi-ai platform, addressing its original limitations in large model and MCP integration. It now supports universal MCP calls for any database or API, enabling true enterprise-grade flexibility, security, and interoperability.

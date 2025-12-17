@@ -4,7 +4,7 @@
 
 ### 企业级AI助手平台
 
-*开箱即用的智能AI平台，深度集成 FastGPT、扣子(Coseemsee)、DIFY 等主流AI平台，提供先进的RAG技术和多模型支持*
+*开箱即用的智能AI平台，深度集成 FastGPT、扣子(Coze)、DIFY 等主流AI平台，提供先进的RAG技术和多模型支持*
 
 **[🇺🇸 English](README_EN.md)** | **[📖 使用文档](https://doc.pandarobot.chat)** | **[🚀 在线体验](https://web.pandarobot.chat)** | **[🐛 问题反馈](https://github.com/ageerle/seemse_ai/issues)** | **[💡 功能建议](https://github.com/ageerle/seemse_ai/issues)**
 

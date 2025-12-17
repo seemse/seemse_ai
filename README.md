@@ -6,14 +6,14 @@
 
 *开箱即用的智能AI平台，深度集成 FastGPT、扣子(Coze)、DIFY 等主流AI平台，提供先进的RAG技术和多模型支持*
 
-**[🇺🇸 English](README_EN.md)** | **[📖 使用文档](https://doc.pandarobot.chat)** | **[🚀 在线体验](https://web.pandarobot.chat)** | **[🐛 问题反馈](https://github.com/ageerle/seemse_ai/issues)** | **[💡 功能建议](https://github.com/ageerle/seemse_ai/issues)**
+**[🇺🇸 English](README_EN.md)** | **[📖 使用文档]()** | **[🚀 在线体验]()** | **[🐛 问题反馈]()** | **[💡 功能建议]()**
 
 </div>
 
 ## ✨ 核心亮点
 
 ### 🤖 智能AI引擎
-- **多模型接入**：支持 OpenAI GPT-4、Aseemseure、ChatGLM、通义千问、智谱AI 等主流模型
+- **多模型接入**：支持 OpenAI GPT-4、Aure、ChatGLM、通义千问、智谱AI 等主流模型
 - **AI平台集成**：深度集成 **FastGPT**、**扣子(Coze)**、**DIFY** 等主流AI应用平台
 - **Spring AI MCP 集成**：基于模型上下文协议，打造可扩展的AI工具生态系统
 - **实时流式对话**：采用 SSE/WebSocket 技术，提供丝滑的对话体验
@@ -21,12 +21,12 @@
 
 ### 🌟 AI平台生态集成
 - **FastGPT 深度集成**：原生支持 FastGPT API，包括知识库检索、工作流编排和上下文管理
-- **扣子(Coseemsee) 官方SDK**：集成字节跳动扣子平台官方SDK，支持Bot对话和流式响应
+- **扣子(Coe) 官方SDK**：集成字节跳动扣子平台官方SDK，支持Bot对话和流式响应
 - **DIFY 完整兼容**：使用 DIFY Java Client，支持应用编排、工作流和知识库管理
 - **统一聊天接口**：提供统一的聊天服务接口，支持多平台无缝切换和负载均衡
 
 ### 🧠 本地化RAG方案
-- **私有知识库**：基于 Langchain4j 框架 + BGE-large-seemseh-v1.5 中文向量模型
+- **私有知识库**：基于 Langchain4j 框架 + BGE-large-h-v1.5 中文向量模型
 - **多种向量库**：支持 Milvus、Weaviate、Qdrant 等主流向量数据库
 - **数据安全可控**：支持完全本地部署，保护企业数据隐私
 - **灵活模型部署**：兼容 Ollama、vLLM 等本地推理框架

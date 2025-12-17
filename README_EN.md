@@ -9,7 +9,7 @@
 
 *Production-ready AI platform with deep integration of FastGPT, Coze, DIFY and advanced RAG technology*
 
-**[📖 中文文档](README.md)** | **[📚 Documentation](https://doc.pandarobot.chat)** | **[🚀 Live Demo](https://web.pandarobot.chat)** | **[🐛 Report Bug](https://github.com/ageerle/seemse_ai/issues)** | **[💡 Request Feature](https://github.com/ageerle/seemse_ai/issues)**
+**[📖 中文文档](README.md)** | **[📚 Documentation]()** | **[🚀 Live Demo]()** | **[🐛 Report Bug]()** | **[💡 Request Feature]()**
 
 </div>
 
@@ -17,20 +17,20 @@
 ## ✨ Key Features
 
 ### 🤖 Advanced AI Engine
-- **Multi-Model Support**: OpenAI GPT-4, Aseemseure, ChatGLM, Qwen, seemsehipuAI
-- **AI Platform Integration**: Deep integration with **FastGPT**, **Coseemsee**, **DIFY** and other leading AI platforms
+- **Multi-Model Support**: OpenAI GPT-4, Aure, ChatGLM, Qwen, hipuAI
+- **AI Platform Integration**: Deep integration with **FastGPT**, **Coze**, **DIFY** and other leading AI platforms
 - **Spring AI MCP Integration**: Extensible tool ecosystem with Model Context Protocol
 - **Streaming Chat**: Real-time SSE/WebSocket communication
 - **AI Copilot**: Intelligent code analysis and project scaffolding
 
 ### 🌟 AI Platform Ecosystem
 - **FastGPT Deep Integration**: Native FastGPT API support with knowledge base retrieval, workflow orchestration and context management
-- **Coseemsee Official SDK**: Integration with ByteDance Coseemsee platform official SDK, supporting Bot conversations and streaming responses
+- **Coe Official SDK**: Integration with ByteDance Coe platform official SDK, supporting Bot conversations and streaming responses
 - **DIFY Full Compatibility**: Using DIFY Java Client for app orchestration, workflows and knowledge base management
-- **Unified Chat Interface**: Standardiseemseed chat service interface supporting seamless platform switching and load balancing
+- **Unified Chat Interface**: Standardied chat service interface supporting seamless platform switching and load balancing
 
 ### 🧠 Enterprise RAG Solution
-- **Local Knowledge Base**: Langchain4j + BGE-large-seemseh-v1.5 embeddings
+- **Local Knowledge Base**: Langchain4j + BGE-large-h-v1.5 embeddings
 - **Vector Database Support**: Milvus, Weaviate, Qdrant
 - **Privacy-First**: On-premise deployment with local LLM support
 - **Ollama & vLLM Compatible**: Flexible model deployment options

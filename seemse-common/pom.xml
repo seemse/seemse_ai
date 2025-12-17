@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>seemse_ai</artifactId>
+        <groupId>org.seemse</groupId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>seemse-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+    <modules>
+        <module>seemse-common-bom</module>
+        <module>seemse-common-core</module>
+        <module>seemse-common-doc</module>
+        <module>seemse-common-excel</module>
+        <module>seemse-common-idempotent</module>
+        <module>seemse-common-log</module>
+        <module>seemse-common-mail</module>
+        <module>seemse-common-mybatis</module>
+        <module>seemse-common-oss</module>
+        <module>seemse-common-ratelimiter</module>
+        <module>seemse-common-redis</module>
+        <module>seemse-common-satoken</module>
+        <module>seemse-common-security</module>
+        <module>seemse-common-sms</module>
+        <module>seemse-common-web</module>
+        <module>seemse-common-translation</module>
+        <module>seemse-common-sensitive</module>
+        <module>seemse-common-json</module>
+        <module>seemse-common-encrypt</module>
+        <module>seemse-common-tenant</module>
+        <module>seemse-common-chat</module>
+        <module>seemse-common-pay</module>
+    </modules>
+
+</project>

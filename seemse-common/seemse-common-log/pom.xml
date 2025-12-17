@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.seemse</groupId>
+        <artifactId>seemse-common</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>seemse-common-log</artifactId>
+
+    <description>
+        seemse-common-log 日志记录
+    </description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-satoken</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-json</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

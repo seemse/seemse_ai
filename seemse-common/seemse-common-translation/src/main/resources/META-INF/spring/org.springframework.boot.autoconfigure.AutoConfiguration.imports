@@ -1,0 +1,5 @@
+org.seemse.common.translation.config.TranslationConfig
+org.seemse.common.translation.core.impl.DeptNameTranslationImpl
+org.seemse.common.translation.core.impl.DictTypeTranslationImpl
+org.seemse.common.translation.core.impl.OssUrlTranslationImpl
+org.seemse.common.translation.core.impl.UserNameTranslationImpl

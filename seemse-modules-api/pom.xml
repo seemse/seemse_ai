@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>seemse_ai</artifactId>
+        <groupId>org.seemse</groupId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>seemse-modules-api</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>seemse-chat-api</module>
+        <module>seemse-knowledge-api</module>
+        <module>seemse-system-api</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- 系统核心模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-core</artifactId>
+        </dependency>
+
+        <!-- mybaits基础模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-mybatis</artifactId>
+        </dependency>
+
+        <!-- 脱敏模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-sensitive</artifactId>
+        </dependency>
+
+        <!-- excel模块-->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-excel</artifactId>
+        </dependency>
+
+        <!-- 租户基础模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-tenant</artifactId>
+        </dependency>
+
+        <!-- 字段翻译基础模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-translation</artifactId>
+        </dependency>
+
+        <!-- 系统日志模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-log</artifactId>
+        </dependency>
+
+        <!-- 对象存储模块 -->
+        <dependency>
+            <groupId>org.seemse</groupId>
+            <artifactId>seemse-common-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,5 @@
+org.seemse.common.web.config.CaptchaConfig
+org.seemse.common.web.config.FilterConfig
+org.seemse.common.web.config.I18nConfig
+org.seemse.common.web.config.ResourcesConfig
+org.seemse.common.web.config.UndertowConfig
